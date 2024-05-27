@@ -1,0 +1,109 @@
+# Ignore virtual environment
+# https://stackoverflow.com/a/38128695/1202830
+__pycache__/
+
+# Ignore logs
+logs/
+
+# Ignore pyc files
+*.pyc
+
+# Ignore cache
+.cache/
+
+# Ignore build
+build/
+
+# Ignore coverage
+.coverage*
+.coverage.xml
+
+# Ignore coverage html
+htmlcov/
+
+# Ignore env
+env/
+
+# Ignore node_modules
+node_modules/
+
+# Ignore dist
+dist/
+
+# Ignore .pytest_cache
+.pytest_cache/
+
+# Ignore docker containers
+*.db
+*.lock
+
+db.sqlite3
+
+env
+
+
+# Ignore static files
+staticfiles/
+media/
+
+# Ignore .pytest files
+.pytest_*/
+
+# Ignore .venv
+.venv/
+
+# Ignore ipython
+*.ipynb
+
+# Ignore sphinx
+.doctrees/
+.doindex/
+
+# Ignore flake8
+.tox/
+
+# Ignore jupyter
+.ipynb_checkpoints/
+
+# Ignore jenkins
+jenkins/
+
+# Ignore tox
+tox/
+tox.ini
+
+# Ignore .idea
+.idea/
+
+# Ignore spyder
+.spyderproject/
+.spyproject.cachedir/
+
+# Ignore ccache
+ccache/
+
+# Ignore cpython
+__pycache__/
+
+# Ignore cpython
+cpython__/
+
+# Ignore pycache
+.pycache/
+
+# Ignore pre-commit
+.pre-commit-cache/
+
+# Ignore pytest_
+.pytest_*/
+
+# Ignore pytest-cov
+.cov/
+.cov.xml
+
+# Ignore coverage
+coverage.xml
+
+# Ignore coverage html
+htmlcov/
+

@@ -1,0 +1,25 @@
+{% extends 'accounts/base.html' %}
+
+{% block content %}
+
+{% if messages %}
+{% for message in messages %}
+    {{message}}
+{% endfor %}
+{% endif %}
+
+
+<form action="{% url 'accounts:change_password' %}" method="post">
+    <h3>Change password</h3>
+    {% csrf_token %}
+
+    <input type="text" name="o_password" placeholder="old password" minlength="6" required>
+    <input type="text" name="password" placeholder="new password" minlength="6" required>
+    <input type="text" name="c_password" placeholder="confim password" minlength="6" required>
+
+    <button type="submit">Change password</button>
+
+
+</form>
+
+{% endblock content %}
